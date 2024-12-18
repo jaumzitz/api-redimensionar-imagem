@@ -1,6 +1,6 @@
 const sharp = require('sharp')
 
-const writePath = './src/images/processed/'
+const writePath = './images/processed/'
 
 async function resizeImage(file) {
 

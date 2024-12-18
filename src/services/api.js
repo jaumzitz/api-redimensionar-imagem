@@ -1,6 +1,6 @@
 const express = require('express')
 const multer = require('multer')
-const { resizeImage } = require('../../resizeImage')
+const { resizeImage } = require('../resizeImage.js')
 const sharp = require('sharp')
 const app = express()
 const port = 3000
